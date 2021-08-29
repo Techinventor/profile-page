@@ -7,10 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div id= "sidenav_act" class="sidenav">
+        <a href="javascript:void(0)" class="closeBtn" 
+        onclick="closeNav()">&times;</a>
+
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Works</a>
+        <a href="#">Contact</a>
+    </div>
+
     <main class="main">
 
         <div class= "wrap1">
-            <img id= "menu_icon" src="images/menu.svg" alt="menu">
+            <img id= "menu_icon" src="images/menu.svg" alt="menu" onclick="openNav()">
 
            <h1>PROFILE INFO</h1>
 
@@ -174,5 +185,7 @@
         text box. Click again or double 
         click to start editing the text.</p>
             </footer>
+
+            <script src="js/main.js"></script>
 </body>
 </html>
